@@ -1,10 +1,36 @@
-- 👋 Hi, I’m @ushaganpisetti
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+package io.javabrains.moviecatalogservice;
 
-<!---
-ushaganpisetti/ushaganpisetti is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+public class CatalogItem {
+	
+	private String name;
+	private String desc;
+	private int rating;
+	
+	
+	public CatalogItem(String name, String desc, int rating) {
+		super();
+		this.name = name;
+		this.desc = desc;
+		this.rating = rating;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	
+
+}
